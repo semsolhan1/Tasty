@@ -81,7 +81,7 @@ public class SnsBoardService implements ISnsBoardService {
 	@Override
 	public MSnsBoardVO getDetail(int bno) {
 
-		return null;
+		return mapper.getDetail(bno);
 	}
 
 	@Override
